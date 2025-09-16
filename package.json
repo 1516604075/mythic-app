@@ -1,0 +1,10 @@
+{
+  "name": "mythic-app",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix server run build-client",
+    "start": "npm --prefix server start"
+  }
+}
